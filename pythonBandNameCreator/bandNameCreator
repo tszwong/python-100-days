@@ -1,0 +1,14 @@
+# greeting for program
+print("Hello, welcome to band name generator!")
+
+# asks the user for input for name of city and favorite animal
+user_city = input("What is the name of the city/town that you grew up in?  ")
+print(user_city)
+
+user_favorite_animal = input("\nWhat is your favorite animal? (Enter plural form of animal name) ")
+print(user_favorite_animal)
+
+# combines the two user input values to create a new band name
+band_name_result = user_city + " " + user_favorite_animal
+print("\nYour band name could be: " + band_name_result)
+
